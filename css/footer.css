@@ -1,0 +1,30 @@
+/*подвал*/
+.footer {
+    background: #27273e;
+}
+.footer-comments {
+   background: #323232;
+}
+.footer__text {
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-media__link {
+    list-style: none;
+}
+.vk-logo__image {
+    width: 20px;
+    height: 20px;
+}
+.fb-logo__image {
+    width: 20px;
+    height: 20px;
+}
+.google-logo__image {
+    width: 20px;
+    height: 20px;
+}
+.twitter-logo__image {
+    width: 20px;
+    height: 20px;
+}

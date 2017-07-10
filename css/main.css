@@ -1,0 +1,301 @@
+body {
+    font-family: 'Gotham';
+    font-weight: 300;
+    line-height: 1.42;
+}
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+* {
+box-sizing: border-box;
+}
+/*главная страница*/
+/*шапка*/
+.header {
+    background: #27273e;
+}
+.phone{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 21px;
+    text-decoration: none;
+}
+.contacts__schedule {
+    color: #b12167;
+    opacity: .7;
+}
+
+/*боковое меню*/
+.nav-menu__icon-main {
+    background: url('../img/sidebar/main_icon.png');
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 15px;
+}
+.nav-menu__icon-prices{
+    background: url('../img/sidebar/wallet_icon.png');
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 16px;
+}
+.nav-menu__icon-reviews{
+    background: url('../img/sidebar/feed_icon.png');
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 17px;
+}
+.nav-menu__text {
+    color: #f04b94;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-menu__link {
+    text-decoration: none;
+}
+.nav-menu {
+    list-style: none;
+}
+.nav-menu__link:hover .nav-menu__icon-main {
+    background-image: url('../img/sidebar/main_icon active.png');
+}
+.nav-menu__link:hover .nav-menu__icon-prices {
+    background-image: url('../img/sidebar/wallet_active.png');
+}
+.nav-menu__link:hover .nav-menu__icon-reviews {
+    background-image: url('../img/sidebar/feed_icon black.png');
+}
+.nav-menu__link:hover .nav-menu__text{
+    color: #221f1f;
+}
+/*контент страницы*/
+.page-image__picture { 
+    width: 900px;
+    height: 355px;
+}
+.description {
+    background: #27273e;
+    width: 700px;
+    height: 113px;
+}
+.description__text {
+    color: #ffffff;
+}
+/*комментаторы*/   
+.first-comment__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.second-comment__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.third-comment__img {
+    width: 162px;
+    height: 162px;
+    overflow: hidden;
+}
+.third-comment-elipse__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.fourth-comment__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*страницы в комментариях*/
+.page-number {
+    list-style: none;
+}
+.first-page:hover .first-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.second-page:hover .second-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.third-page:hover .third-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.fourth-page:hover .fourth-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.fifth-page:hover .fifth-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.sixth-page:hover .sixth-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.seventh-page:hover .seventh-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+/*форма заявки*/
+.form {
+    width: 700px;
+    height: 400px;
+    background: #f5f5f5;
+    border-radius: 3px;
+    padding: 45px 70px;
+}
+.form__title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #221f1f;
+    margin-bottom: 25px;
+}
+.form__cell {
+    display: block;
+    float: left;
+}
+.form__input-text {
+  width: 100%;
+  height: 45px;
+  padding: 13px 10px;
+  font-size: 14px;
+  font-weight: 300px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.form__textarea {
+  height: 90px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  resize: none;
+  font-size: 14px;
+}
+/*партнеры*/
+.partners__list {
+    list-style: none;
+}
+/*подвал*/
+.footer {
+    background: #27273e;
+}
+.footer-comments {
+   background: #323232;
+}
+.footer__text {
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-media__link {
+    list-style: none;
+}
+.vk-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object VK.png');
+    width: 20px;
+    height: 20px;
+}
+.fb-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object FB.png');
+    width: 20px;
+    height: 20px;
+}
+.google-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object Google.png');
+    width: 20px;
+    height: 20px;
+}
+.twitter-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object Twitter.png');
+    width: 20px;
+    height: 20px;
+}
+.mail-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object mail.png');
+    width: 20px;
+    height: 20px;
+}
+.vk-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object VK comments.png');
+    width: 20px;
+    height: 20px;
+}
+.fb-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object FB comments.png');
+    width: 20px;
+    height: 20px;
+}
+.google-logo-comments__icon{
+    background-image: url('../img/footer/Vector Smart Object Google comments.png');
+    width: 20px;
+    height: 20px;
+}
+.twitter-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object Twitter comments.png');
+    width: 20px;
+    height: 20px;
+}
+.mail-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object mail comments.png');
+    width: 20px;
+    height: 20px;
+}
+.vk__link:hover .vk-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object VK active.png');
+}
+.fb__link:hover .fb-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object FB active.png');
+}
+.google__link:hover .google-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object google active.png');
+}
+.twitter__link:hover .twitter-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object twitter active.png');
+}
+.mail__link:hover .mail-logo__icon {
+    background-image: url('../img/footer/Vector Smart Object mail active.png');
+}
+.vk__link:hover .vk-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object VK comments active.png');
+}
+.fb__link:hover .fb-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object FB comments active.png');
+}
+.google__link:hover .google-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object Google comments active.png');
+}
+.twitter__link:hover .twitter-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object Twitter comments active.png');
+}
+.mail__link:hover .mail-logo-comments__icon {
+    background-image: url('../img/footer/Vector Smart Object mail comments active.png');
+}
