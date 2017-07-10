@@ -174,10 +174,6 @@ box-sizing: border-box;
     background: #f5f5f5;
     border-radius: 3px;
     padding: 45px 70px;
-    flex-direction: row;
-}
-.name-form {
-    display: flex;
 }
 .form__row {
   margin-bottom: 20px;
@@ -191,6 +187,7 @@ box-sizing: border-box;
 .form__field-title {
   color: #221f1f;
   font-size: 14px;
+  font-weight: lighter;
   margin-bottom: 7px;
 }
 .form__cell {
@@ -253,6 +250,7 @@ form__textarea:focus {
 }
 .social-media__link {
     list-style: none;
+    display: flex;
 }
 .vk-logo__icon {
     background-image: url('../img/footer/Vector Smart Object VK.png');
