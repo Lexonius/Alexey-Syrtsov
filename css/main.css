@@ -202,7 +202,14 @@ box-sizing: border-box;
   font-weight: 300px;
   border: 1px solid transparent;
   border-radius: 3px;
+
 }
+.form__input-text::-webkit-input-placeholder {
+color:#221f1f;
+}
+.form__input-text::-moz-placeholder {
+color:#221f1f;
+}/* Firefox 19+ */
 .form__input-text:focus{
     border-color:#ec1e79;
     outline: none;
@@ -287,8 +294,14 @@ form__textarea:focus {
     width: 138px;
     height: 45px;
     border-radius: 3px;
+    border: none;
     outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 4px;
 }
+
 /*партнеры*/
 .partners__list {
     list-style: none;
