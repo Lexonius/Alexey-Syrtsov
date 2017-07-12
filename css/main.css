@@ -3,7 +3,7 @@ body {
     font-weight: 300;
     line-height: 1.42;
 }
-.clearfix {
+.clearfix:after {
     content: "";
     display: block;
     clear: both;
@@ -11,28 +11,90 @@ body {
 * {
 box-sizing: border-box;
 }
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+body, html {
+    height: 100%;
+}
+.wraper {
+    min-height: 100%;
+    min-width: 1100px;
+    overflow: hidden;
+}
+.wraper:after {
+    content: "";
+    display: block;
+    height: 77px;
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 /*главная страница*/
 /*шапка*/
 .header {
     background: #27273e;
+    padding: 10 0px;
+}
+.contacts {
+    display: inline-block;
 }
 .phone{
     font-weight: bold;
     color: #ffffff;
     font-size: 21px;
     text-decoration: none;
+    display: block;
 }
 .contacts__schedule {
     color: #b12167;
     opacity: .7;
+    display: block;
+}
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+.header__right {
+    text-align: right;
+}
+.logo__wrapper {
+    display: inline-block;
 }
 
+
 /*боковое меню*/
+.sidebar {
+    float: left;
+    width: 180px;
+    padding-top: 45px;
+    padding-right: 10 px;
+}
+.nav-menu__item {
+    margin-bottom: 28px;
+}
+.nav-menu__icon {
+    width: 18px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
 .nav-menu__icon-main {
     background: url('../img/sidebar/main_icon.png');
     background-repeat: no-repeat;
     width: 18px;
     height: 15px;
+}
+.nav-menu__item.active .nav-menu__text {
+    color: #221f1f;
+}
+.nav-menu__item.active .nav-menu__icon-main {
+    background-image: url('../img/sidebar/main_icon active.png');
 }
 .nav-menu__icon-prices{
     background: url('../img/sidebar/wallet_icon.png');
@@ -50,6 +112,9 @@ box-sizing: border-box;
     color: #f04b94;
     text-transform: uppercase;
     font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 122px;
 }
 .nav-menu__link {
     text-decoration: none;
@@ -70,6 +135,42 @@ box-sizing: border-box;
     color: #221f1f;
 }
 /*контент страницы*/
+.main-content {
+    float: left;
+    width: 880px;
+}
+.page-image {
+    position: relative;
+}
+.page-image__text {
+    position: absolute;
+    top: 165px; 
+    left: 67px;
+    color: #ffffff;
+    font-size: 49px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.page__text {
+    margin-bottom: 20px;
+    font-size: 18px; 
+}
+.page__text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.page__text h1 {
+    font-weight: bold;
+}
+.page__text ul {
+    padding: 0;
+    list-style: none;
+}
+.page__text li {
+    margin-bottom: 15px;
+    padding-left: 40px;
+    background: url('../img/oval.png') 10px 10px no-repeat;
+}
 .page-image__picture { 
     width: 900px;
     height: 355px;
@@ -309,6 +410,9 @@ form__textarea:focus {
 /*подвал*/
 .footer {
     background: #27273e;
+    height: 77px;
+    margin-top: -77 px;
+    min-width: 1100px;
 }
 .footer-comments {
    background: #323232;
@@ -316,6 +420,7 @@ form__textarea:focus {
 .footer__text {
     color: #ffffff;
     text-decoration: none;
+    list-style: none;
 }
 .social-media__link {
     list-style: none;
