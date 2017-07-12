@@ -414,6 +414,10 @@ form__textarea:focus {
     margin-top: -77 px;
     min-width: 1100px;
 }
+.footer__col {
+    float: left;
+    width: 33.3%;
+}
 .footer-comments {
    background: #323232;
 }
@@ -421,6 +425,10 @@ form__textarea:focus {
     color: #ffffff;
     text-decoration: none;
     list-style: none;
+}
+.footer-logo {
+    display: inline-block;
+    text-align: center;
 }
 .social-media__link {
     list-style: none;
