@@ -10,21 +10,32 @@
 <body>
                     <!---шапка-->
                 <div class="wrapper">
-                    <header class="header">
-                        <div class="container clearfix">
-                            <div class="header__left">
-                                <a href="./index.html" class="logo__wrapper">
-                                    <img src="./img/logo-fig.png" alt="" class="logo">
-                                </a>
-                            </div>
-                            <div class="header__right">
-                                <div class="contacts">
-                                    <a href=""+78000039210"" class="phone"> 8 (800) 00-392-10</a>
-                                        <a href="#" class="contacts__schedule">График работы</a>    
-                                </div> 
-                            </div>  
-                        </div>        
-                    </header>
+                     <header class="header">
+                <div class="container clearfix">
+                    <div class="header__left">
+                        <a href="./index.html" class="logo__wrapper">
+                            <img src="./img/logo-fig.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="header__right">
+                        <div class="contacts">
+                            <a href=""+78000039210"" class="phone"> 8 (800) 00-392-10</a>
+                                <div class="contacts__elem">
+                                   <a href="#" class="contacts__schedule">График работы</a>
+                                    <div class="contacts__dropdown">
+                                        <div class="contacts__time">
+                                            пн-вс: 09:00 - 20:00
+                                        </div>
+                                        <div class="contacts__lunch">
+                                            обед:14:00-14:30
+                                        </div>
+                                    </div>     
+                                </div>
+                                
+                        </div> 
+                    </div>  
+                </div>        
+        </header>
                 </div>
                     <!-- боковое меню -->
             <div class="container clearfix">
@@ -53,10 +64,15 @@
                             </aside>
                 <!-- контент страницы -->
                 <main class="main-content">
-                    <div class="page-name">
-                        <i class="page-name__text">Главная/отзывы</i>
-                    </div>
-                    <h1>Отзывы</h1>
+                    <ul class="breadcrumbs">
+                                <li class="breadcrumbs__item">
+                                    <a href="" class="breadcrumbs__link">Главная</a>
+                                </li>
+                                <li class="breadcrumbs__item breadcrumbs__item_active">
+                                    <a href="" class="breadcrumbs__link">Отзывы</a>
+                                </li>
+                            </ul>
+                    <div class="section-title">Отзывы</div>
                         <div class="first-comment">
                             <img src="./img/comments/first comment.jpg" alt="" class="first-comment__img">
                                 <p class="data">12.10.2016</p1>
