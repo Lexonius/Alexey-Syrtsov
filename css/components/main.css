@@ -1,0 +1,84 @@
+.main-content {
+    float: left;
+    width: 880px;
+}
+.page-image {
+    position: relative;
+}
+.page-image__text {
+    position: absolute;
+    top: 165px; 
+    left: 67px;
+    color: #ffffff;
+    font-size: 49px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.page__text {
+    margin-bottom: 20px;
+    font-size: 18px; 
+}
+.page__text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.page__text h1 {
+    font-weight: bold;
+}
+.page__text ul {
+    padding: 0;
+    list-style: none;
+}
+.page__text li {
+    margin-bottom: 15px;
+    padding-left: 40px;
+    background: url('../../img/oval.png') 10px 10px no-repeat;
+}
+.page-image__picture { 
+    width: 900px;
+    height: 355px;
+}
+.description {
+    background: #27273e;
+    width: 700px;
+    height: 113px;
+    padding: 15px 30px;
+}
+.description__text {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/*партнеры*/
+.partners__list {
+    list-style: none;
+}
+.partners__item {
+    float: left;
+    margin-right: 20px;
+    width: 212px;
+    margin-bottom: 50px;
+    height: 75px;
+}
+.partners__link {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.partners__image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.partners__item_middle .partners__image {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.partners__item-right .partners__image{
+    right: 0;
+}

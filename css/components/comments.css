@@ -1,0 +1,84 @@
+/*комментаторы*/   
+.first-comment__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.second-comment__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.third-comment__img {
+    width: 162px;
+    height: 162px;
+    overflow: hidden;
+}
+.third-comment-elipse__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.fourth-comment__img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*страницы в комментариях*/
+.page-number {
+    list-style: none;
+    display: flex;
+}
+.first-page:hover .first-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.second-page:hover .second-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.third-page:hover .third-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.fourth-page:hover .fourth-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.fifth-page:hover .fifth-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.sixth-page:hover .sixth-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}
+.seventh-page:hover .seventh-page__text {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%
+}

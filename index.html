@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1100">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/import.css">
     <title>Главная страница</title>
 </head>
 <body>
     <div class="wrapper">
                         <!---шапка-->
         <header class="header">
-            <div class="container clearfix">
-                <div class="header__left">
-                    <a href="./index.html" class="logo__wrapper">
-                        <img src="./img/logo-fig.png" alt="" class="logo">
-                    </a>
-                    
-                </div>
-                <div class="header__right">
-                   <div class="contacts">
-                        <a href=""+78000039210"" class="phone"> 8 (800) 00-392-10</a>
-                            <a href="#" class="contacts__schedule">График работы</a>    
-                    </div> 
-                </div>  
-            </div>        
+                <div class="container clearfix">
+                    <div class="header__left">
+                        <a href="./index.html" class="logo__wrapper">
+                            <img src="./img/logo-fig.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="header__right">
+                        <div class="contacts">
+                            <a href=""+78000039210"" class="phone"> 8 (800) 00-392-10</a>
+                                <div class="contacts__elem">
+                                   <a href="#" class="contacts__schedule">График работы</a>
+                                    <div class="contacts__dropdown">
+                                        <div class="contacts__time">
+                                            пн-вс: 09:00 - 20:00
+                                        </div>
+                                        <div class="contacts__lunch">
+                                            обед:14:00-14:30
+                                        </div>
+                                    </div>     
+                                </div>
+                                
+                        </div> 
+                    </div>  
+                </div>        
         </header>
     </div>
                         <!-- боковое меню -->
-        <div class="container clearfix">
-            <aside class="sidebar">
+                    <div class="container clearfix">
+                        <aside class="sidebar">
                             <nav class="menu">
                                 <ul class="nav-menu">
                                     <li class="nav-menu__item active">
@@ -102,37 +110,43 @@
                             </div>
                                     <div class="partners">
                                         <div class="partners__title">Партнеры</div>
-                                        <ul class="partners__list">
+                                        <ul class="partners__list clearfix">
                                             <li class="partners__item">
-                                                <a  href="a" class="partners__link-winter">
-                                                    <img src="./img/partners/winter.png" alt="" class="winter-logo__image">
+                                                <a  href="a" class="partners__link">
+                                                    <img src="./img/partners/winter.png" alt="" class="partners__image">
+                                                </a>
+                                            </li>
+                                            <li class="partners__item partners__item_middle">
+                                                <a class="partners__link" href="a">
+                                                    <img src="./img/partners/tishkin.png" alt="" class="partners__image">
+                                                </a>
+                                            </li>
+                                            <li class="partners__item partners__item-right">
+                                                <a class="partners__link" href="a">
+                                                    <img src="./img/partners/drop.png" alt="" class="partners__image">
+                                                </a>
                                             </li>
                                             <li class="partners__item">
-                                                <a class="partners__link-tishkin" href="a">
-                                                    <img src="./img/partners/tishkin.png" alt="" class="tishkin-logo__image">
+                                                <a class="partners__link" href="a">
+                                                    <img src="./img/partners/pufok.png" alt="" class="partners__image">
+                                                </a>
                                             </li>
-                                            <li class="partners__item">
-                                                <a class="partners__link-drop" href="a">
-                                                    <img src="./img/partners/drop.png" alt="" class="drop-logo__image">
+                                            <li class="partners__item partners__item_middle">
+                                                <a class="partners__link" href="a">
+                                                    <img src="./img/partners/Ann.png" alt="" class="partners__image">
+                                                </a>
                                             </li>
-                                            <li class="partners__item">
-                                                <a class="partners__link-pufok" href="a">
-                                                    <img src="./img/partners/pufok.png" alt="" class="pufok-logo__image">
-                                            </li>
-                                            <li class="partners__item">
-                                                <a class="partners__link-Ann" href="a">
-                                                    <img src="./img/partners/Ann.png" alt="" class="Ann-logo__image">
-                                            </li>
-                                            <li class="partners__item">
-                                                <a class="partners__link-Avalanche" href="a">
-                                                    <img src="./img/partners/Avalanche.png" alt="" class="avalanche-logo__image">
+                                            <li class="partners__item partners__item_middle">
+                                                <a class="partners__link" href="a">
+                                                    <img src="./img/partners/Avalanche.png" alt="" class="partners__image">
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>  
                             </div>
                         </main>
-        </div>
+                    </div>
             
                                         <!-- подвал-->
         <footer class="footer">
@@ -175,9 +189,7 @@
                             </ul>       
                         </div> 
                 </div>
-                 
             </div>
-            
         </footer>
 </body>
 </html>

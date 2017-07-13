@@ -1,0 +1,109 @@
+.footer {
+    background: #27273e;
+    height: 77px;
+    margin-top: -77 px;
+    min-width: 1100px;
+}
+.footer__col {
+    float: left;
+    width: 33.3%;
+}
+.footer-comments {
+   background: #323232;
+   height: 77px;
+   margin-top: -77 px;
+   min-width: 1100px;
+}
+.footer__text {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-logo {
+    display: inline-block;
+    text-align: center;
+}
+.social-media__link {
+    list-style: none;
+    display: flex;
+}
+.vk-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object VK.png');
+    width: 20px;
+    height: 20px;
+}
+.fb-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object FB.png');
+    width: 20px;
+    height: 20px;
+}
+.google-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object Google.png');
+    width: 20px;
+    height: 20px;
+}
+.twitter-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object Twitter.png');
+    width: 20px;
+    height: 20px;
+}
+.mail-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object mail.png');
+    width: 20px;
+    height: 20px;
+}
+.vk-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object VK comments.png');
+    width: 20px;
+    height: 20px;
+}
+.fb-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object FB comments.png');
+    width: 20px;
+    height: 20px;
+}
+.google-logo-comments__icon{
+    background-image: url('../../img/footer/Vector Smart Object Google comments.png');
+    width: 20px;
+    height: 20px;
+}
+.twitter-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object Twitter comments.png');
+    width: 20px;
+    height: 20px;
+}
+.mail-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object mail comments.png');
+    width: 20px;
+    height: 20px;
+}
+.vk__link:hover .vk-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object VK active.png');
+}
+.fb__link:hover .fb-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object FB active.png');
+}
+.google__link:hover .google-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object google active.png');
+}
+.twitter__link:hover .twitter-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object twitter active.png');
+}
+.mail__link:hover .mail-logo__icon {
+    background-image: url('../../img/footer/Vector Smart Object mail active.png');
+}
+.vk__link:hover .vk-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object VK comments active.png');
+}
+.fb__link:hover .fb-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object FB comments active.png');
+}
+.google__link:hover .google-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object Google comments active.png');
+}
+.twitter__link:hover .twitter-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object Twitter comments active.png');
+}
+.mail__link:hover .mail-logo-comments__icon {
+    background-image: url('../../img/footer/Vector Smart Object mail comments active.png');
+}
