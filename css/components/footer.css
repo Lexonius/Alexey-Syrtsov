@@ -18,14 +18,25 @@
     color: #ffffff;
     text-decoration: none;
     list-style: none;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 14px;
 }
 .footer-logo {
     display: inline-block;
     text-align: center;
+    margin-top: 15px;
+}
+.social-media__text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
 }
 .social-media__link {
     list-style: none;
     display: flex;
+    margin-top: 11px;
 }
 .vk-logo__icon {
     background-image: url('../../img/footer/Vector Smart Object VK.png');

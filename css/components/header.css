@@ -5,6 +5,8 @@
 }
 .contacts {
     display: inline-block;
+    margin-top: 21px;
+    margin-bottom: 17px;
 }
 .contacts__elem {
     position: relative;
@@ -80,4 +82,6 @@
 
 .logo__wrapper {
     display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 13px;
 }
