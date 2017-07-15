@@ -83,30 +83,35 @@
     height: 20px;
     margin-right: 29px;
 }
-.vk-logo-comments__icon {
+.social-media-VK-comments {
     background-image: url('../../img/footer/Vector Smart Object VK comments.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.fb-logo-comments__icon {
+.social-media-fb-comments {
     background-image: url('../../img/footer/Vector Smart Object FB comments.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.google-logo-comments__icon{
+.social-media-google-comments{
     background-image: url('../../img/footer/Vector Smart Object Google comments.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.twitter-logo-comments__icon {
+.social-media-twitter-comments {
     background-image: url('../../img/footer/Vector Smart Object Twitter comments.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.mail-logo-comments__icon {
+.social-media-mail-comments {
     background-image: url('../../img/footer/Vector Smart Object mail comments.png');
     width: 20px;
     height: 20px;
+    margin-right: 29px;
 }
 .social-media-VK:hover  {
     background-image: url('../../img/footer/Vector Smart Object VK active.png');
@@ -123,18 +128,18 @@
 .social-media-mail:hover  {
     background-image: url('../../img/footer/Vector Smart Object mail active.png');
 }
-.social-media__link:hover .vk-logo-comments__icon {
+.social-media-VK-comments:hover {
     background-image: url('../../img/footer/Vector Smart Object VK comments active.png');
 }
-.social-media__link:hover .fb-logo-comments__icon {
+.social-media-fb-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object FB comments active.png');
 }
-.social-media__link:hover .google-logo-comments__icon {
+.social-media-google-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object Google comments active.png');
 }
-.social-media__link:hover .twitter-logo-comments__icon {
+.social-media-twitter-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object Twitter comments active.png');
 }
-.social-media__link:hover .mail-logo-comments__icon {
+.social-media-mail-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object mail comments active.png');
 }
