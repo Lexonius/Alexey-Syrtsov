@@ -115,17 +115,21 @@
 .partners__item-right .partners__image{
     right: 0;
 }
+.services {
+    margin-top: 40px;
+}
 .services__item {
     width: 250px;
-    float: left;
+    float: right;
     margin-bottom: 44px;
+    margin-right: 40px;
 }
 .first-tarif {
     background-color: #27273e;
     height: 155px;
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 .first-tarif__img {
@@ -139,7 +143,7 @@
     height: 155px;
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 .second-tarif__img {
@@ -149,13 +153,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -60%);
+    width: 100%;
 }
 .third-tarif {
     background-color: #27273e;
     height: 155px;
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 .third-tarif__img {
@@ -169,8 +174,8 @@
     height: 155px;
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
-    margin-bottom: 20px;    
+    border-radius: 5px;
+    margin-bottom: 20px;   
 }
 .fourth-tarif__img {
     opacity: .15;
@@ -197,7 +202,7 @@
     height: 155px;
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 .sixth-tarif__img {
