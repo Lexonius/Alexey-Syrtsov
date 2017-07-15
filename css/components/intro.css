@@ -1,5 +1,5 @@
 .wrapper__welcome {
-    background: url('../img/intro/intro-img-change.jpg') center center no-repeat;
+    background: url('../../img/intro/intro-img-change.jpg') center center no-repeat;
     background-size: cover;
     height: 100%;
     text-align: center;
