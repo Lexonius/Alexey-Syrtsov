@@ -1,4 +1,4 @@
-body {
+html,body {
     font-family: 'Gotham';
     font-weight: 300;
     line-height: 1.42;
@@ -27,7 +27,6 @@ body, html {
     content: "";
     display: block;
     height: 77px;
-
 }
 ul {
     padding: 0;

@@ -1,7 +1,6 @@
 .footer {
     background: #27273e;
     height: 77px;
-    margin-top: -77 px;
     min-width: 1100px;
 }
 .footer__col {
@@ -11,7 +10,6 @@
 .footer-comments {
    background: #323232;
    height: 77px;
-   margin-top: -77 px;
    min-width: 1100px;
 }
 .footer__text {
@@ -20,7 +18,7 @@
     list-style: none;
     font-size: 14px;
     font-weight: lighter;
-    margin-top: 14px;
+    margin-top: 12px;
 }
 .footer-logo {
     display: inline-block;
@@ -31,37 +29,59 @@
     font-size: 14px;
     font-weight: bold;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+.footer__desc-link {
+    font-weight: bold;
+    color: #ffffff;
+}
+.b {
+    font-weight: bold;
+    color: #ffffff;
+}
+.social-media {
+    float: right;
+}
+.footer__col-right {
+    text-align: right;
+}
+.footer__col-middle {
+    text-align: center;
 }
 .social-media__link {
     list-style: none;
     display: flex;
     margin-top: 11px;
 }
-.vk-logo__icon {
+.social-media-VK {
     background-image: url('../../img/footer/Vector Smart Object VK.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.fb-logo__icon {
+.social-media-fb {
     background-image: url('../../img/footer/Vector Smart Object FB.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.google-logo__icon {
+.social-media-google {
     background-image: url('../../img/footer/Vector Smart Object Google.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.twitter-logo__icon {
+.social-media-twitter {
     background-image: url('../../img/footer/Vector Smart Object Twitter.png');
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
-.mail-logo__icon {
+.social-media-mail {
     background-image: url('../../img/footer/Vector Smart Object mail.png');
     width: 20px;
     height: 20px;
+    margin-right: 29px;
 }
 .vk-logo-comments__icon {
     background-image: url('../../img/footer/Vector Smart Object VK comments.png');
@@ -88,33 +108,33 @@
     width: 20px;
     height: 20px;
 }
-.vk__link:hover .vk-logo__icon {
+.social-media__link:hover .social-media-VK {
     background-image: url('../../img/footer/Vector Smart Object VK active.png');
 }
-.fb__link:hover .fb-logo__icon {
+.social-media__link:hover .social-media-fb {
     background-image: url('../../img/footer/Vector Smart Object FB active.png');
 }
-.google__link:hover .google-logo__icon {
+.social-media__link:hover .google-logo__icon {
     background-image: url('../../img/footer/Vector Smart Object google active.png');
 }
-.twitter__link:hover .twitter-logo__icon {
+.social-media__link:hover .twitter-logo__icon {
     background-image: url('../../img/footer/Vector Smart Object twitter active.png');
 }
-.mail__link:hover .mail-logo__icon {
+.social-media__link:hover .mail-logo__icon {
     background-image: url('../../img/footer/Vector Smart Object mail active.png');
 }
-.vk__link:hover .vk-logo-comments__icon {
+.social-media__link:hover .vk-logo-comments__icon {
     background-image: url('../../img/footer/Vector Smart Object VK comments active.png');
 }
-.fb__link:hover .fb-logo-comments__icon {
+.social-media__link:hover .fb-logo-comments__icon {
     background-image: url('../../img/footer/Vector Smart Object FB comments active.png');
 }
-.google__link:hover .google-logo-comments__icon {
+.social-media__link:hover .google-logo-comments__icon {
     background-image: url('../../img/footer/Vector Smart Object Google comments active.png');
 }
-.twitter__link:hover .twitter-logo-comments__icon {
+.social-media__link:hover .twitter-logo-comments__icon {
     background-image: url('../../img/footer/Vector Smart Object Twitter comments active.png');
 }
-.mail__link:hover .mail-logo-comments__icon {
+.social-media__link:hover .mail-logo-comments__icon {
     background-image: url('../../img/footer/Vector Smart Object mail comments active.png');
 }
