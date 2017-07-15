@@ -108,19 +108,19 @@
     width: 20px;
     height: 20px;
 }
-.social-media__link:hover .social-media-VK {
+.social-media-VK:hover  {
     background-image: url('../../img/footer/Vector Smart Object VK active.png');
 }
-.social-media__link:hover .social-media-fb {
+.social-media-fb:hover  {
     background-image: url('../../img/footer/Vector Smart Object FB active.png');
 }
-.social-media__link:hover .google-logo__icon {
+.social-media-google:hover  {
     background-image: url('../../img/footer/Vector Smart Object google active.png');
 }
-.social-media__link:hover .twitter-logo__icon {
+.social-media-twitter:hover  {
     background-image: url('../../img/footer/Vector Smart Object twitter active.png');
 }
-.social-media__link:hover .mail-logo__icon {
+.social-media-mail:hover  {
     background-image: url('../../img/footer/Vector Smart Object mail active.png');
 }
 .social-media__link:hover .vk-logo-comments__icon {
