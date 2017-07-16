@@ -117,10 +117,11 @@
 }
 .services {
     margin-top: 40px;
+    display: flex; 
+    flex-wrap: wrap;
 }
 .services__item {
     width: 250px;
-    float: right;
     margin-bottom: 44px;
     margin-right: 40px;
 }
@@ -153,7 +154,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -60%);
-    width: 100%;
 }
 .third-tarif {
     background-color: #27273e;
