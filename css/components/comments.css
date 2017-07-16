@@ -10,6 +10,8 @@
 }
 .first-comment {
     display: flex;
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 31px;
 }
 .comment-text {
     width: 698px;
@@ -24,6 +26,8 @@
 }
 .second-comment {
     display: flex;
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 31px;
 }
 .second-comment__img {
     width: 162px;
@@ -33,6 +37,8 @@
 }
 .third-comment {
     display: flex;
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 31px;
 }
 .third-comment__img {
     background: #f5f5f5;
@@ -42,6 +48,8 @@
     overflow: hidden;
     background-image: url('../../img/comments/third comment.png');
     background-repeat: no-repeat;
+    background-position-x: 32px;
+    background-position-y: 50px;
 }
 .fourth-comment {
     display: flex;
@@ -53,56 +61,84 @@
     overflow: hidden;
 }
 /*страницы в комментариях*/
+.pagination {
+    display: flex;
+    margin-bottom: 76px;
+    margin-top: 20px;
+}
+.page {
+    margin-left: 214px;
+}
+.page-switch-first__image {
+    margin-left: 21px;
+    width: 7px;
+    height: 10px;
+    margin-top: 22px;
+}
 .page-number {
     list-style: none;
     display: flex;
+    margin-left: 14px;
+    margin-top: 15px;
+    font-weight: bold;
 }
-.first-page:hover  {
+.first-page__text {
+    margin-right: 19px;
+}
+.first-page__text:hover  {
+    color: #ec1e79;
+    background: #27273e;
+    width: 20px;
+    height: 20px;
+    border-radius: 25%;
+    background-position: 50%;
+    
+}
+.second-page__text:hover  {
     color: #ec1e79;
     background: #27273e;
     width: 20px;
     height: 20px;
     border-radius: 25%
 }
-.second-page:hover  {
+.third-page__text:hover  {
     color: #ec1e79;
     background: #27273e;
     width: 20px;
     height: 20px;
     border-radius: 25%
 }
-.third-page:hover  {
+.fourth-page__text:hover  {
     color: #ec1e79;
     background: #27273e;
     width: 20px;
     height: 20px;
     border-radius: 25%
 }
-.fourth-page:hover  {
+.fifth-page__text:hover  {
     color: #ec1e79;
     background: #27273e;
     width: 20px;
     height: 20px;
     border-radius: 25%
 }
-.fifth-page:hover  {
+.sixth-page__text:hover  {
     color: #ec1e79;
     background: #27273e;
     width: 20px;
     height: 20px;
     border-radius: 25%
 }
-.sixth-page:hover  {
+.seventh-page__text:hover {
     color: #ec1e79;
     background: #27273e;
     width: 20px;
     height: 20px;
     border-radius: 25%
 }
-.seventh-page:hover {
-    color: #ec1e79;
-    background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
+.page-switch-second__image {
+    margin-left: 21px;
+    width: 7px;
+    height: 10px;
+    margin-top: 22px;
 }

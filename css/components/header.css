@@ -85,3 +85,6 @@
     margin-top: 15px;
     margin-bottom: 13px;
 }
+.contacts__schedule:hover {
+    color: #769dcd;
+}

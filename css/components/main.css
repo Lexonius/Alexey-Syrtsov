@@ -34,6 +34,7 @@
     font-size: 50px;
     font-weight: bold;
     color: #221f1f;
+
 }
 .page-image {
     position: relative;
@@ -54,9 +55,12 @@
 .page__text p {
     margin-bottom: 20px;
     font-size: 18px;
+    width: 644px;
+    font-weight: lighter;
 }
 .page__text h1 {
     font-weight: bold;
+    font-size: 18px;
 }
 .page__text ul {
     padding: 0;
