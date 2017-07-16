@@ -8,4 +8,5 @@
 @import "components/main.css";
 @import "components/sidebarcss.css";
 @import "components/intro.css";
-@import "components/comments.css"
+@import "components/comments.css";
+@import "components/animate.css";

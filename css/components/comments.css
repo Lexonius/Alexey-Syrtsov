@@ -82,58 +82,16 @@
     margin-top: 15px;
     font-weight: bold;
 }
-.first-page__text {
+.page-coments__text {
     margin-right: 19px;
-}
-.first-page__text:hover  {
-    color: #ec1e79;
-    background: #27273e;
     margin: 5px;
     padding: 5px;
     border-radius: 3px;
-    
 }
-.second-page__text:hover  {
+.page-coments__text:hover  {
     color: #ec1e79;
     background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
-}
-.third-page__text:hover  {
-    color: #ec1e79;
-    background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
-}
-.fourth-page__text:hover  {
-    color: #ec1e79;
-    background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
-}
-.fifth-page__text:hover  {
-    color: #ec1e79;
-    background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
-}
-.sixth-page__text:hover  {
-    color: #ec1e79;
-    background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
-}
-.seventh-page__text:hover {
-    color: #ec1e79;
-    background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%
+
 }
 .page-switch-second__image {
     margin-left: 21px;

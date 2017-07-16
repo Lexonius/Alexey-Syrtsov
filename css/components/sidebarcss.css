@@ -53,6 +53,7 @@
     display: inline-block;
     vertical-align: middle;
     max-width: 122px;
+    font-size: 12px;
 }
 .nav-menu__link {
     text-decoration: none;

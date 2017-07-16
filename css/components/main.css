@@ -34,7 +34,8 @@
     font-size: 50px;
     font-weight: bold;
     color: #221f1f;
-
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .page-image {
     position: relative;
@@ -51,6 +52,7 @@
 .page__text {
     margin-bottom: 20px;
     font-size: 18px; 
+    font-weight: lighter;
 }
 .page__text p {
     margin-bottom: 20px;
@@ -85,8 +87,14 @@
     color: #ffffff;
     font-size: 18px;
 }
+.description__pink {
+    color: #ec1e79;
+}
 
 /*партнеры*/
+.partners {
+    margin-bottom: 20px;
+}
 .partners__list {
     list-style: none;
 }
@@ -96,6 +104,10 @@
     width: 212px;
     margin-bottom: 50px;
     height: 75px;
+    filter: grayscale(100%); 
+}
+.partners__item:hover {
+    filter: none;
 }
 .partners__link {
     height: 100%;
