@@ -88,10 +88,9 @@
 .first-page__text:hover  {
     color: #ec1e79;
     background: #27273e;
-    width: 20px;
-    height: 20px;
-    border-radius: 25%;
-    background-position: 50%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
     
 }
 .second-page__text:hover  {

@@ -29,12 +29,12 @@
   height: 45px;
   padding: 13px 10px;
   font-size: 14px;  
-  font-weight: 300px;
+  font-weight: lighter;
   border: 1px solid transparent;
   border-radius: 3px;
 
 }
-.form__input-text::-webkit-input-placeholder {
+.form__input-text:hover {
 color:#221f1f;
 }
 .form__input-text::-moz-placeholder {
