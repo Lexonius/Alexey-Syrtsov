@@ -9,8 +9,6 @@
     margin-bottom: 28px;
 }
 .nav-menu__icon {
-    width: 18px;
-    height: 15px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
@@ -43,8 +41,8 @@
 .nav-menu__icon-reviews{
     background: url('../../img/sidebar/feed_icon.png');
     background-repeat: no-repeat;
-    width: 19px;
-    height: 17px;
+    width: 20px;
+    height: 19px;
 }
 .nav-menu__text {
     color: #f04b94;
@@ -63,16 +61,19 @@
 }
 .nav-menu__link:hover .nav-menu__icon-main {
     background-image: url('../../img/sidebar/main_icon active.png');
+    opacity: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
 .nav-menu__link:hover .nav-menu__icon-prices {
     background-image: url('../../img/sidebar/wallet_active.png');
+    opacity: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
 .nav-menu__link:hover .nav-menu__icon-reviews {
     background-image: url('../../img/sidebar/feed_icon black.png');
+    opacity: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
