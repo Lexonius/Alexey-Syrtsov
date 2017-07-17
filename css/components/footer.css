@@ -115,31 +115,42 @@
 }
 .social-media-VK:hover  {
     background-image: url('../../img/footer/Vector Smart Object VK active.png');
+    animation: rubberBand 1s;
 }
 .social-media-fb:hover  {
     background-image: url('../../img/footer/Vector Smart Object FB active.png');
+    animation: rubberBand 1s;
+    
 }
 .social-media-google:hover  {
     background-image: url('../../img/footer/Vector Smart Object google active.png');
+    animation: rubberBand 1s;
 }
 .social-media-twitter:hover  {
     background-image: url('../../img/footer/Vector Smart Object twitter active.png');
+    animation: rubberBand 1s;
 }
 .social-media-mail:hover  {
     background-image: url('../../img/footer/Vector Smart Object mail active.png');
+    animation: rubberBand 1s;
 }
 .social-media-VK-comments:hover {
     background-image: url('../../img/footer/Vector Smart Object VK comments active.png');
+    animation: rubberBand 1s;
 }
 .social-media-fb-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object FB comments active.png');
+    animation: rubberBand 1s;
 }
 .social-media-google-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object Google comments active.png');
+    animation: rubberBand 1s;
 }
 .social-media-twitter-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object Twitter comments active.png');
+    animation: rubberBand 1s;
 }
 .social-media-mail-comments:hover  {
     background-image: url('../../img/footer/Vector Smart Object mail comments active.png');
+    animation: rubberBand 1s;
 }

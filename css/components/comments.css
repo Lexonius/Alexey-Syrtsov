@@ -91,6 +91,8 @@
 .page-coments__text:hover  {
     color: #ec1e79;
     background: #27273e;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
 
 }
 .page-switch-second__image {

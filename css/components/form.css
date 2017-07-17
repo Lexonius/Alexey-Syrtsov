@@ -129,3 +129,8 @@ form__textarea:focus {
     color: #ffffff;
     letter-spacing: 4px;
 }
+.form__submit:hover {
+    background-color: #ec227b;
+    transition: 0.75s;
+    -webkit-transition: 0.75s;
+}

@@ -108,6 +108,7 @@
 }
 .partners__item:hover {
     filter: none;
+    transition: 1.5s;
 }
 .partners__link {
     height: 100%;
