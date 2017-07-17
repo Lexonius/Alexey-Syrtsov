@@ -12,6 +12,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
+    position: relative;
 }
 .nav-menu__item.active .nav-menu__text {
     color: #221f1f;
@@ -31,7 +32,6 @@
     width: 18px;
     height: 15px;
 }
-
 .nav-menu__icon-prices{
     background: url('../../img/sidebar/wallet_icon.png');
     background-repeat: no-repeat;
@@ -64,7 +64,14 @@
     opacity: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
+} 
+.nav-menu__icon-main {
+    position: relative;
+    z-index: -1;
+    background-image: url('../../img/sidebar/main_icon.png');
+    opacity: 1;
 }
+
 .nav-menu__link:hover .nav-menu__icon-prices {
     background-image: url('../../img/sidebar/wallet_active.png');
     opacity: 0;
