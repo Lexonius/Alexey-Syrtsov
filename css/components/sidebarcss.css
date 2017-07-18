@@ -65,7 +65,7 @@
     transition: 0.5s;
     -webkit-transition: 0.5s;
 } 
-.nav-menu__icon-main {
+.nav-menu__icon-main::after {
     position: relative;
     z-index: -1;
     background-image: url('../../img/sidebar/main_icon.png');
