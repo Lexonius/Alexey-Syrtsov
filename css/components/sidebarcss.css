@@ -65,13 +65,6 @@
     transition: 0.5s;
     -webkit-transition: 0.5s;
 } 
-.nav-menu__icon-main::after {
-    position: relative;
-    z-index: -1;
-    background-image: url('../../img/sidebar/main_icon.png');
-    opacity: 1;
-}
-
 .nav-menu__link:hover .nav-menu__icon-prices {
     background-image: url('../../img/sidebar/wallet_active.png');
     opacity: 0;
